@@ -12,12 +12,12 @@ namespace Skymey_main_lib.Models.Prices.Polygon
 {
     public class Day
     {
-        public int o { get; set; }
-        public int h { get; set; }
-        public int l { get; set; }
-        public int c { get; set; }
-        public int v { get; set; }
-        public int vw { get; set; }
+        public double o { get; set; }
+        public double h { get; set; }
+        public double l { get; set; }
+        public double c { get; set; }
+        public double v { get; set; }
+        public double vw { get; set; }
     }
 
     public class Min
