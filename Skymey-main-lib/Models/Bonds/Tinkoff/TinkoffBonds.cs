@@ -93,8 +93,8 @@ namespace Skymey_main_lib.Models.Bonds.Tinkoff
     public class TinkoffBondPlacementPrice
     {
         public string currency { get; set; }
-        public string units { get; set; }
-        public int nano { get; set; }
+        public long? units { get; set; }
+        public int? nano { get; set; }
     }
 
     public class TinkoffBondQuery
