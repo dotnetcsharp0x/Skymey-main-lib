@@ -18,6 +18,7 @@ namespace Skymey_main_lib.Models.Prices.StockPrices
         public string Ticker { get; set; }
         public string Figi { get; set; }
         public double Price { get; set; }
+        public string Currency {  get; set; }
         public DateTime Update { get; set; }
 
     }
