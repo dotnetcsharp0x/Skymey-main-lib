@@ -9,11 +9,11 @@ namespace Skymey_main_lib.Models.CryptoCurrentPricesView
 {
     public class CryptoCurrentPricesView
     {
-        [JsonPropertyName("ticker")]
+        [JsonPropertyName("Ticker")]
         public string Ticker { get; set; }
-        [JsonPropertyName("price")]
+        [JsonPropertyName("Price")]
         public double Price { get; set; }
-        [JsonPropertyName("update")]
+        [JsonPropertyName("Update")]
         public DateTime Update { get; set; }
     }
 }
